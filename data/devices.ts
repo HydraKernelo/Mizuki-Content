@@ -14,23 +14,14 @@ export type DeviceCategory = Record<string, Device[]> & {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	手机: [
 		{
-			name: "OnePlus 13T",
-			image: "/images/device/oneplus13t.webp",
-			specs: "Gray / 16G + 1TB",
-			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
-		},
-	],
-	Router: [
-		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.webp",
-			specs: "1000Mbps / 2.5G",
+			name: "Redmi K50 Ultra",
+			image: "/images/device/redmi-k50-ultra.webp",
+			specs: "骁龙 8+ Gen 1 / 8G+256G",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"搭载第一代骁龙 8+ 旗舰处理器，配备 6.67 英寸 1.5K 高刷直屏，5000mAh 大电池 + 120W 神仙秒充，一亿像素主摄。性能与续航兼备的性价比旗舰。",
+			link: "https://www.mi.com/redmik50ultra",
 		},
 	],
 };

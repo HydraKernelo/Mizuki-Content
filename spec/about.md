@@ -1,49 +1,38 @@
+# 关于本站
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+欢迎来到 **HydraKernel 的博客** —— 一个基于 [Mizuki](https://github.com/LyraVoid/Mizuki) 主题（Astro 框架）搭建的个人博客。
 
-::github{repo="LyraVoid/Mizuki"}
+::github{repo="HydraKernelo/Mizuki"}
 
-## 🌟 Theme Features
+## 关于博主
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+你好，我是 **HydraKernel**。这个博客是我的个人空间，用来记录技术笔记、生活随笔和一切值得分享的东西。
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+本站使用 **内容与代码分离** 的架构：文章存放在独立的内容仓库，代码仓库通过 submodule 同步，由 Cloudflare Pages 自动构建部署。这意味着**发文章是一件非常轻量的事** —— 写好 Markdown，推送，几分钟后就能在 [hydrakernel.qzz.io](https://hydrakernel.qzz.io) 看到新文章。
 
+## 关于这个博客是怎么搭起来的
 
+这个博客的搭建过程本身就挺有意思：它是由一个 **AI Agent（DeepSeek Harness 工作环境中的 agent）** 全程协助完成的，包括：
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+- 📦 配置 GitHub 仓库与内容仓库分离架构
+- ☁️ 接入 Cloudflare Pages 自动构建部署
+- 🔗 绑定自定义域名 `hydrakernel.qzz.io`
+- 🤖 编写了一个 **MCP 发帖插件**（mizuki-publisher），让 AI 可以通过标准协议直接发文章
+- 🧠 给 Agent 喂了项目记忆，让它"记得"这个博客的一切
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+也就是说，你现在看到的这个博客，是 **AI 参与构建并持续维护** 的 —— 这正是我建站的初衷之一：探索 AI 时代的个人创作方式。
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+## 本站规划
+
+- ✍️ 技术笔记与教程
+- 🎨 生活随笔与摄影（相册页）
+- 🚀 折腾记录（设备页）
+- 🔗 友链（欢迎交换）
+
+## 联系我
+
+- GitHub: [HydraKernelo](https://github.com/HydraKernelo)
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+*本站由 Mizuki 主题驱动，构建过程由 AI Agent 协助完成。*
