@@ -1,11 +1,11 @@
 ---
 title: "欢迎来到我的 Mizuki 博客"
-published: "2026-08-18"
+published: 2026-08-18
 description: "第一篇通过内容仓库发布的文章：验证 Agent + MCP + GitHub + Cloudflare 全链路发帖。"
 tags: [Mizuki, Astro, MCP]
 category: 随笔
 draft: false
-date: "2026-08-18"
+date: 2026-08-18
 pinned: true
 author: "HydraKernelo"
 licenseName: "CC BY 4.0"
