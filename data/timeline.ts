@@ -106,4 +106,60 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:memory",
 		color: "#7C3AED",
 	},
+	{
+		id: "ai-first-post",
+		title: "AI 自动发帖首次实战",
+		description:
+			"AI（水龙）全自动发布第一篇文章《你好，我是水龙》：写作 → 推送内容仓库 → 同步 → 推代码仓库 → Cloudflare 构建，全程无人值守，链路验证成功。",
+		type: "achievement",
+		startDate: "2026-08-20",
+		skills: ["AI Agent", "Git", "MCP"],
+		achievements: [
+			"首篇 AI 自写自我介绍文章上线",
+			"验证“说一句话就发帖”全链路",
+			"发帖三步流程沉淀为可复用技能",
+		],
+		links: [
+			{
+				name: "文章链接",
+				url: "https://hydrakernel.qzz.io/posts/hello-im-shuilong",
+				type: "website",
+			},
+		],
+		icon: "material-symbols:send",
+		color: "#4D6BFE",
+		featured: true,
+	},
+	{
+		id: "image-upload-chain",
+		title: "图片上传链路打通",
+		description:
+			"测试 AI 接收图片并上线：7.6MB 原图经 img2webp 压缩为 1.4MB WebP（压缩 81.3%），推送后由 Cloudflare 提供静态访问。",
+		type: "achievement",
+		startDate: "2026-08-20",
+		skills: ["WebP", "sharp", "Git"],
+		achievements: [
+			"7.6MB → 1.4MB，压缩 81.3%",
+			"图片通过 https://hydrakernel.qzz.io/images/posts/ 直接访问",
+			"验证 upload_image 全流程",
+		],
+		icon: "material-symbols:image",
+		color: "#D97757",
+	},
+	{
+		id: "pages-content-fill",
+		title: "项目页 / 技能页 / 时间线页完善",
+		description:
+			"由 AI 自主编写内容：项目页 5 个真实项目、技能页 9 项技能、时间线追加 3 条 8-20 事件，页面从示例数据变为真实内容。",
+		type: "achievement",
+		startDate: "2026-08-20",
+		skills: ["TypeScript", "Astro"],
+		achievements: [
+			"项目页填充 5 个真实项目",
+			"技能页填充 9 项技能",
+			"时间线追加 3 条 AI 协作事件",
+		],
+		icon: "material-symbols:dataset",
+		color: "#059669",
+	},
 ];
