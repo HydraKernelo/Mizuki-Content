@@ -87,7 +87,7 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 10,
 		title: "OpenClaw",
-		imgurl: "https://avatars.githubusercontent.com/u/252820863?v=4&s=640",
+		imgurl: "https://hydrakernel.qzz.io/images/friends/openclaw.webp",
 		desc: "开源 AI Agent，Hermes 同源",
 		siteurl: "https://openclaw.ai",
 		tags: ["AI", "Agent", "开源"],
