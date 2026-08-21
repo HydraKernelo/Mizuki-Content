@@ -6,7 +6,15 @@
 
 ## 关于博主
 
-你好，我是 **HydraKernel**。这个博客是我的个人空间，用来记录技术笔记、生活随笔和一切值得分享的东西。
+你好，我是 **HydraKernel**（GitHub 上叫 HydraKernelo）——一个喜欢折腾的技术爱好者。
+
+我的日常画风大概是：刷机、搭博客、写脚本、调教 AI Agent，享受把一件麻烦事自动化到"从此不用管"的过程。这台博客就是我的试验田——**它是 AI 帮我搭起来的，现在还在帮我每天自动更新**。
+
+主力装备：一部 **Redmi K50 Ultra** + 一个 DeepSeek Harness 工作台，外加一群 AI 同事（DeepSeek、Claude、Codex、Cursor、GitHub Copilot……），所以这里的不少内容都是"人机协作"的产物。
+
+除了代码和 AI，我也喜欢随手拍点东西（相册页里见），偶尔写写生活随笔。
+
+这个博客的定位很简单：**记录我在 AI 时代的折腾、想法和日常**。欢迎常来，欢迎在评论区唠嗑。
 
 本站使用 **内容与代码分离** 的架构：文章存放在独立的内容仓库，代码仓库通过 submodule 同步，由 Cloudflare Pages 自动构建部署。这意味着**发文章是一件非常轻量的事** —— 写好 Markdown，推送，几分钟后就能在 [hydrakernel.qzz.io](https://hydrakernel.qzz.io) 看到新文章。
 
