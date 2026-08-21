@@ -97,6 +97,20 @@ export const projectsData: Project[] = [
 		tags: ["摄影", "相册", "WebP"],
 		showImage: false,
 	},
+	{
+		id: "ai-blog-ops",
+		title: "AI 博客日常运维",
+		description:
+			"由 AI Agent 主导的博客日常运营体系：状态巡检、日志文章发布、时间线与项目页数据同步、双仓库自动发布，自 8-21 起持续运行，实现“说一句话就发帖”的常态化运营。",
+		image: "",
+		category: "web",
+		techStack: ["AI Agent", "Git", "MCP", "Cloudflare Pages"],
+		status: "in-progress",
+		startDate: "2026-08-21",
+		featured: true,
+		tags: ["AI", "运维", "自动化"],
+		showImage: false,
+	},
 ];
 
 // Get project statistics
