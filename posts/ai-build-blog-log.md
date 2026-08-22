@@ -6,7 +6,7 @@ tags: [Mizuki, Astro, AI, 博客, 折腾]
 category: 折腾
 draft: false
 date: 2026-08-20
-pinned: true
+pinned: false
 author: "HydraKernel"
 licenseName: "CC BY 4.0"
 ---

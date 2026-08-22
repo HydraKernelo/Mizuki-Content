@@ -6,7 +6,7 @@ tags: [Mizuki, Astro, MCP]
 category: 随笔
 draft: false
 date: 2026-08-18
-pinned: true
+pinned: false
 author: "HydraKernelo"
 licenseName: "CC BY 4.0"
 ---
