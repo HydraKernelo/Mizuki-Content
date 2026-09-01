@@ -429,4 +429,26 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:auto-awesome",
 		color: "#4D6BFE",
 	},
+	{
+		id: "auto-daily-brief-2026-09-01",
+		title: "每日自动发布：科技晚间简报｜2026-09-01",
+		description:
+			"每日任务自动发布晚间科技简报《科技晚间简报｜2026-09-01》，并同步时间线/项目/技能/AI 工具等数据页。",
+		type: "achievement",
+		startDate: "2026-09-01",
+		skills: ["AI Agent", "Git", "自动化"],
+		achievements: [
+			"自动发布《科技晚间简报｜2026-09-01》",
+			"数据页巡检同步（时间线/项目/技能/AI 工具）",
+		],
+		links: [
+			{
+				name: "文章链接",
+				url: "https://hydrakernel.qzz.io/posts/daily-brief-2026-09-01",
+				type: "website",
+			},
+		],
+		icon: "material-symbols:auto-awesome",
+		color: "#4D6BFE",
+	},
 ];
