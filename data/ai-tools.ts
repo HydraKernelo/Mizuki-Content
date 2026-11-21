@@ -38,6 +38,60 @@ export interface AITool {
 // 我使用的 AI 工具
 export const aiToolsData: AITool[] = [
 	{
+		id: "dsh",
+		name: "DeepSeek Harness (DSH)",
+		description: {
+			en: "A local AI agent harness that automates long-running tasks with tools, subagents, and workflows.",
+			zh_CN: "本地 AI 代理工作台，通过工具、子代理和工作流自动化完成长期任务——本博客的写作、巡检与发布都由它驱动。",
+		},
+		icon: "material-symbols:robot-2",
+		category: "other",
+		frequency: "daily",
+		url: "https://github.com/deepseek-ai/dsh",
+		usage: {
+			en: "Weekly posts automation, data-page maintenance, dual-repo publishing",
+			zh_CN: "周更随笔自动发布、数据页巡检、双仓库发布",
+		},
+		tags: ["Agent", "Automation"],
+		color: "#4D6BFE",
+	},
+	{
+		id: "deepseek-api",
+		name: "DeepSeek API",
+		description: {
+			en: "DeepSeek's hosted model API used programmatically by the publishing scripts.",
+			zh_CN: "DeepSeek 的云端模型 API，被发布脚本直接调用。",
+		},
+		icon: "material-symbols:api",
+		category: "other",
+		frequency: "daily",
+		url: "https://platform.deepseek.com",
+		usage: {
+			en: "LLM writing for weekly posts (deepseek-v4-flash)",
+			zh_CN: "周更随笔的自动写作（deepseek-v4-flash）",
+		},
+		tags: ["API", "LLM"],
+		color: "#4D6BFE",
+	},
+	{
+		id: "deepseek",
+		name: "DeepSeek",
+		description: {
+			en: "DeepSeek's open-weight language models for chat, reasoning, and coding.",
+			zh_CN: "DeepSeek 开源权重语言模型，用于对话、推理与编程。",
+		},
+		icon: "material-symbols:data-object",
+		category: "chat",
+		frequency: "daily",
+		url: "https://chat.deepseek.com",
+		usage: {
+			en: "Daily chat, reasoning, coding assistance",
+			zh_CN: "日常对话、推理、编程辅助",
+		},
+		tags: ["Chat", "LLM"],
+		color: "#4D6BFE",
+	},
+	{
 		id: "codex",
 		name: "Codex",
 		description: {
@@ -56,37 +110,19 @@ export const aiToolsData: AITool[] = [
 		color: "#10A37F",
 	},
 	{
-		id: "dsh",
-		name: "DeepSeek Harness (DSH)",
-		description: {
-			en: "A local AI agent harness that automates long-running tasks with tools, subagents, and workflows.",
-			zh_CN: "本地 AI 代理工作台，通过工具、子代理和工作流自动化完成长期任务。",
-		},
-		icon: "material-symbols:robot-2",
-		category: "other",
-		frequency: "daily",
-		url: "https://github.com/deepseek-ai/dsh",
-		usage: {
-			en: "Automation, file operations, multi-step tasks, building this blog",
-			zh_CN: "自动化、文件操作、多步骤任务、搭建本博客",
-		},
-		tags: ["Agent", "Automation"],
-		color: "#4D6BFE",
-	},
-	{
 		id: "openclaw",
 		name: "OpenClaw",
 		description: {
 			en: "An open-source personal AI assistant that connects to your accounts, devices, and workflows.",
-			zh_CN: "开源个人 AI 助手，连接你的账号、设备与工作流。",
+			zh_CN: "开源个人 AI 助手，连接你的账号、设备与工作流（已装 CLI，用于 MCP 集成对比）。",
 		},
 		icon: "material-symbols:smart-toy",
 		category: "chat",
-		frequency: "daily",
+		frequency: "occasional",
 		url: "https://github.com/openclaw/openclaw",
 		usage: {
-			en: "Personal assistant, task automation, MCP integration",
-			zh_CN: "个人助理、任务自动化、MCP 集成",
+			en: "Personal assistant, MCP integration experiments",
+			zh_CN: "个人助理、MCP 集成实验",
 		},
 		tags: ["Agent", "Assistant"],
 		color: "#C97758",
@@ -103,8 +139,8 @@ export const aiToolsData: AITool[] = [
 		frequency: "daily",
 		url: "https://hermesagent.org.cn",
 		usage: {
-			en: "Chat, memory, blog publishing via MCP",
-			zh_CN: "对话、记忆、通过 MCP 发布博客",
+			en: "Memory maintenance, blog publishing via MCP",
+			zh_CN: "记忆维护（USER.md）、通过 MCP 发布博客",
 		},
 		tags: ["Agent", "MCP"],
 		color: "#8B5CF6",
@@ -126,24 +162,6 @@ export const aiToolsData: AITool[] = [
 		},
 		tags: ["Chat", "Writing"],
 		color: "#D97757",
-	},
-	{
-		id: "deepseek",
-		name: "DeepSeek",
-		description: {
-			en: "DeepSeek's open-weight language models for chat, reasoning, and coding.",
-			zh_CN: "DeepSeek 开源权重语言模型，用于对话、推理与编程。",
-		},
-		icon: "material-symbols:data-object",
-		category: "chat",
-		frequency: "daily",
-		url: "https://chat.deepseek.com",
-		usage: {
-			en: "Daily chat, reasoning, coding assistance",
-			zh_CN: "日常对话、推理、编程辅助",
-		},
-		tags: ["Chat", "LLM"],
-		color: "#4D6BFE",
 	},
 	{
 		id: "cursor",
