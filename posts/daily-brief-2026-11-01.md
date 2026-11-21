@@ -4,7 +4,7 @@ published: 2026-11-01
 description: "2026-11-01 晚间科技简报 + 博客数据页自动同步。"
 tags: [科技, 新闻, 简报, 日常]
 category: 科技
-draft: false
+draft: true
 pinned: false
 author: "HydraKernelo"
 licenseName: "CC BY 4.0"

@@ -4,7 +4,7 @@ published: 2026-09-23
 description: "2026-09-23 每日科技速览：AI 自动整理当天科技圈动态。"
 tags: [科技, 新闻, 速览]
 category: 科技
-draft: false
+draft: true
 pinned: false
 author: "HydraKernelo"
 licenseName: "CC BY 4.0"
